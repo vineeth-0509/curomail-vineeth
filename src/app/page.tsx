@@ -12,31 +12,31 @@ export default function Page() {
   const words = [
     {
       text: "Streamline",
-      className: "text-red-500",
+      className: "text-blue-500",
     },
     {
       text: "your",
-      className: "text-yellow-500",
+      className: "text-blue-500",
     },
     {
       text: "inbox:",
-      className: "text-green-500",
+      className: "text-blue-500",
     },
     {
       text: "connect",
-      className: "text-purple-500",
+      className: "text-blue-500",
     },
     {
       text: "faster,",
-      className: "text-pink-500",
+      className: "text-blue-500",
     },
     {
       text: "communicate",
-      className: "text-orange-500",
+      className: "text-blue-500",
     },
     {
       text: "smarter.",
-      className: "text-blue-500 dark:text-white-500",
+      className: "text-blue-500",
     },
   ];
   return (
