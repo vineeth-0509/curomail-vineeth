@@ -71,11 +71,13 @@ export default function Page() {
           />
           <div className="absolute inset-0 h-full w-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]" />
 
-          <TypewriterEffect words={words} />
           {/* 
         <div className="flex flex-col space-y-4 space-x-0 md:flex-row md:space-y-0 md:space-x-4">
           <Button className="h-10 w-40 rounded-xl border border-transparent bg-black text-sm text-white dark:border-white" />
         </div> */}
+        </div>
+        <div>
+          <TypewriterEffect words={words} />
         </div>
       </div>
     </div>
