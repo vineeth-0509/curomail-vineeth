@@ -52,14 +52,15 @@ export default function Page() {
             </>
           ) : (
             <>
-              <Link href="/sign-up">
-                <Button
-                  asChild
-                  className="animate-bounce bg-black text-white hover:-translate-y-2 hover:bg-black"
-                >
-                  SignUp
-                </Button>
-              </Link>
+              <Button
+              className='animate-bounce bg-black text-white hover:-translate-y-2 hover:bg-black'
+              asChild={false}
+              >
+                <Link href='/sign-up'>
+                Sign Up
+                </Link>
+
+              </Button>
             </>
           )}
         </div>
