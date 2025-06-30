@@ -85,9 +85,11 @@ export default function Page() {
   return (
   <div className="flex flex-col min-h-screen bg-black text-white items-center justify-center space-y-6 p-6">
     {/* Section 1: LinkAccount */}
+    <button className='bg-black text-white'>
     <div className="bg-black">
       <LinkAccountButton />
     </div>
+    </button>
 
     {/* Section 2: Curo-Mail + Sparkles */}
     <div className="relative flex flex-col items-center justify-center bg-black overflow-hidden">
