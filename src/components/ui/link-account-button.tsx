@@ -11,7 +11,7 @@ const LinkAccountButton = () => {
         console.log(authUrl);
         window.location.href = authUrl;
       }}
-      className="text-white"
+      className="animate-bounce bg-black text-white hover:bg-black"
     >
       Link Account
     </Button>
